@@ -1,0 +1,365 @@
+body {
+        background: black;
+        font-size: 25px;
+       
+    }
+
+    #gamebox {
+        border-radius: 25px;
+        width: 300px;
+        height: 45px;
+        margin: 0 auto;
+        font-size: 20px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(217, 255, 0);
+        position: relative;
+        -webkit-animation-name: example;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-delay: 4s;
+        /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+        animation-delay: 2s;
+    }
+
+    /* Safari 4.0 - 8.0 */
+
+    @-webkit-keyframes example {
+        0% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            background-color: rgb(145, 145, 28);
+            left: 200px;
+            top: 0px;
+        }
+        50% {
+            background-color: rgb(18, 18, 88);
+            left: 200px;
+            top: 200px;
+        }
+        75% {
+            background-color: rgb(15, 68, 15);
+            left: 0px;
+            top: 200px;
+        }
+        100% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    /* Standard syntax */
+
+    @keyframes example {
+        0% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            background-color: rgb(145, 145, 28);
+            left: 200px;
+            top: 0px;
+        }
+        50% {
+            background-color: rgb(18, 18, 88);
+            left: 200px;
+            top: 200px;
+        }
+        75% {
+            background-color: rgb(15, 68, 15);
+            left: 0px;
+            top: 200px;
+        }
+        100% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    #input {
+        border-radius: 25px;
+        background: blue;
+        width: 500px;
+        height: 75px;
+        text-align: center;
+        padding-bottom: 50px;
+        /* font-size: 15px; */
+        font-family: fantasy;
+        margin-right: 200px;
+        float: right;
+
+        font-family: 'Gloria Hallelujah', cursive;
+        position: relative;
+        -webkit-animation-name: example;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 8s;
+        /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+    }
+
+    /* Safari 4.0 - 8.0 */
+
+    @-webkit-keyframes example {
+        0% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            background-color: rgb(145, 145, 28);
+            left: 200px;
+            top: 0px;
+        }
+        50% {
+            background-color: rgb(18, 18, 88);
+            left: 200px;
+            top: 200px;
+        }
+        75% {
+            background-color: rgb(15, 68, 15);
+            left: 0px;
+            top: 200px;
+        }
+        100% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    /* Standard syntax */
+
+    @keyframes example {
+        0% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            background-color: rgb(145, 145, 28);
+            left: 200px;
+            top: 0px;
+        }
+        50% {
+            background-color: rgb(18, 18, 88);
+            left: 200px;
+            top: 200px;
+        }
+        75% {
+            background-color: rgb(15, 68, 15);
+            left: 0px;
+            top: 200px;
+        }
+        100% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    #workspace {
+        border-radius: 25px;
+        background: red;
+        width: 300px;
+        height: 200px;
+        text-align: center;
+        padding: 5px;
+        /* font-size: 10px; */
+        font-family: 'Gloria Hallelujah', cursive;
+        margin: 0 auto;
+        float: right;
+    }
+
+    #lives {
+        border-radius: 25px;
+        width: 500px;
+        height: 100px;
+        margin: 0 auto;
+        /* font-size: 15px; */
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        background-color: red;
+        position: relative;
+        -webkit-animation-name: example;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s;
+        /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+    }
+
+    /* Safari 4.0 - 8.0 */
+
+    @-webkit-keyframes example {
+        0% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            background-color: rgb(145, 145, 28);
+            left: 200px;
+            top: 0px;
+        }
+        50% {
+            background-color: rgb(18, 18, 88);
+            left: 200px;
+            top: 200px;
+        }
+        75% {
+            background-color: rgb(15, 68, 15);
+            left: 0px;
+            top: 200px;
+        }
+        100% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    /* Standard syntax */
+
+    @keyframes example {
+        0% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            background-color: rgb(145, 145, 28);
+            left: 200px;
+            top: 0px;
+        }
+        50% {
+            background-color: rgb(18, 18, 88);
+            left: 200px;
+            top: 200px;
+        }
+        75% {
+            background-color: rgb(15, 68, 15);
+            left: 0px;
+            top: 200px;
+        }
+        100% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    header {
+
+        border-radius: 25px;
+        padding: 20px;
+        width: 80%;
+        height: 150px;
+        color: yellowgreen;
+
+
+        font-size: 50px;
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+
+        background-color: green;
+        position: relative;
+        -webkit-animation-name: example;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-iteration-count: 2;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-direction: alternate;
+        /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+
+    /* Safari 4.0 - 8.0 */
+
+    @-webkit-keyframes example {
+        0% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            background-color: rgb(145, 145, 28);
+            left: 200px;
+            top: 0px;
+        }
+        50% {
+            background-color: rgb(18, 18, 88);
+            left: 200px;
+            top: 200px;
+        }
+        75% {
+            background-color: rgb(15, 68, 15);
+            left: 0px;
+            top: 200px;
+        }
+        100% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    /* Standard syntax */
+
+    @keyframes example {
+        0% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            background-color: rgb(145, 145, 28);
+            left: 200px;
+            top: 0px;
+        }
+        50% {
+            background-color: rgb(18, 18, 88);
+            left: 200px;
+            top: 200px;
+        }
+        75% {
+            background-color: rgb(15, 68, 15);
+            left: 0px;
+            top: 200px;
+        }
+        100% {
+            background-color: rgb(77, 15, 15);
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    /* image */
+
+    .work {
+        
+        float: left;
+        width: 40px;
+        margin-left: 0px;
+    }
+
+    .work img {
+        width: 900px;
+        border: 0 none;
+        opacity: 1.0;
+        border: red 10px;
+    }
