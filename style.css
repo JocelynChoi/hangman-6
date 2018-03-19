@@ -358,7 +358,8 @@ body {
     }
 
     .work img {
-        width: 900px;
+        width: 200px;
+        height: 150px;
         border: 0 none;
         opacity: 1.0;
         border: red 10px;
