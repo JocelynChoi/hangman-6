@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Hangman Game</title>
+
+    
+</head>
+
+<body>
+     
+    <header>Hangman!
+        <div class="work">
+            <img src="images/hangman.jpg" alt="hangman">
+        </div>
+        <br><br>
+
+        <div id="gamebox">
+            <h2>Press Any Key to Start</h2>
+        </div>
+    </header>
+
+
+    <div id="input">
+        <h1>Current Word:</h1>
+        <p id="word-blanks">Word Blanks</p><br><br>
+
+
+        <div id="workspace">
+            <h1>Lives Left:</h1>
+            <p id="guesses-left"></p><br>
+            <h1>Wrong Guesses:</h1>
+            <p id="wrong-guesses"></p><br>
+            <h1>Wins:</h1>
+            <p id="win-counter"></p>
+
+
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
